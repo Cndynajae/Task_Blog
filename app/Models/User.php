@@ -41,4 +41,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-}
+
+    // public $abc;
+
+    // public function get_abc(){
+    //     return $this->abc;
+    // }
+
+    // public static function return_sesuatu() {
+    //     return $this->abc;
+    // }
+
+    }
